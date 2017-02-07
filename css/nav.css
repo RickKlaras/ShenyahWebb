@@ -1,0 +1,32 @@
+/*--------------------------
+MAIN STYLES
+---------------------------*/
+.main-header{
+  padding-top: 2em;
+}
+
+.site-logo{
+  width: 110px;
+}
+
+.nav{
+  margin-top: 1.5em;
+}
+
+.nav a {
+  display: block;
+  font-size: 1.125em;
+  font-weight: 300;
+  text-align: center;
+  padding: .4em;
+  border-bottom: 1px solid #000;
+  list-style-type: none;
+}
+
+.nav a:hover{
+  color: #333;
+  border-bottom-color:#333;
+}
+/*--------------------------
+MEDIA QUERIES
+---------------------------*/
