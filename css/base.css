@@ -12,6 +12,14 @@ body {
   line-height: 1.5;
 }
 
+img{
+  max-width: 79vmax;
+  max-height: 79vmax;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+}
+
 ul,
 li {
   margin: 0;
@@ -26,6 +34,9 @@ a {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  /*min-height: 100vh;*/
 	width: 90%;
 	margin: auto;
 }
@@ -49,9 +60,18 @@ a {
 		column-gap: 2.5em;
 	}
 }
-
 @media (min-width: 1200px) {
 	.container {
 		width: 1080px;
 	}
+}
+
+@media (min-width: 1188px) {
+	.container {
+		width: 1080px;
+	}
+  img {
+    max-width: 900px;
+    max-height: 900px;
+  }
 }
