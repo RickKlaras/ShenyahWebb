@@ -6,7 +6,6 @@ MAIN STYLES
   display: flex;
   flex-direction:column;
   margin-top: 0;
-
 }
 
 .main-header{
@@ -14,15 +13,12 @@ MAIN STYLES
   margin-top: 1vh;
 }
 
-.site-logo{
+a.site-logo{
   width: auto;
   align-self: center;
   white-space: nowrap;
 }
 
-.nav{
-  margin-top: 1.5em;
-}
 
 .nav a {
   display: block;
@@ -37,9 +33,17 @@ MAIN STYLES
   color: #333;
   border-bottom-color:#333;
 }
+.nav li:last-child a{
+  border-bottom: none;
+}
+
+
 /*--------------------------
 MEDIA QUERIES
 ---------------------------*/
+/*.nav{
+  margin-top: 1.5em;
+}*/
 
 @media (min-width: 769px){
   .main-header{
