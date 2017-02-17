@@ -50,7 +50,23 @@ a {
   flex: 1;
 }
 
+#bio-pic{
+  float: right;
+  max-width: 300px;
+  margin-top: 0;
+  margin-right: 20px;
+}
 
+.page-heading{
+  text-align: center;
+}
+
+/* --------------------------
+  SoundCloud Player Styles
+--------------------------- */
+#soundcloud{
+  align: right;
+}
 
 /* --------------------------
   Media Queries
@@ -67,8 +83,7 @@ a {
 		-moz-column-count: 1;
 		-moz-column-gap: 2.5em;
 
-		column-count: 1;
-		column-gap: 2.5em;
+		column-count: 1; column-gap: 2.5em;
 	}
   .page-content{
     margin-top: 16vh;
