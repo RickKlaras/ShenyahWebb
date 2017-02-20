@@ -9,32 +9,14 @@
     <link href="slick/slick-theme.css" rel="stylesheet" type="text/css" />
     <link href="css/base.css" rel="stylesheet" type="text/css" />
     <link href="css/nav.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/slick-lightbox/dist/slick-lightbox.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet"> </head>
 
 <body>
     <div class="container">
-        <div class="row contact-page-content">
-            <h1 class="page-heading">Contact</h1>
-            <p>
-              Do you have questions, comments or purchase or commission inquiries?
-            </p>
-            <p>
-               Here's how to connect with Shenyah:
-               <ul>
-                 <li>
-                   Shenyah@shenyah.com
-                 </li>
-                 <li>
-                   Instagram (insert instagram link and icon here)
-                 </li>
-                 <li>
-                   Facebook (insert Facebook link and icon here)
-                 </li>
-                 <li>
-                   Etsy (insert Etsy link and icon here)
-                 </li>
-               </ul>
-            </p>
+        <div class="row page-content">
+            <h1 class="page-heading">Gallery</h1>
+
         </div>
         <header class="main-header">
             <a href="index.html" class="site-logo"><h1>Shenyah Webb</h1></a>
@@ -59,3 +41,15 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
+  <script type="text/javascript" src="bower_components/slick-lightbox/dist/slick-lightbox.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('ul').slickLightbox({
+        itemSelector: '> li > a'
+      });
+    });
+  </script>
+</body>
+
+</html>
