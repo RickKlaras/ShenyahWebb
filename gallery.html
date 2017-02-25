@@ -9,13 +9,97 @@
     <link href="slick/slick-theme.css" rel="stylesheet" type="text/css" />
     <link href="css/base.css" rel="stylesheet" type="text/css" />
     <link href="css/nav.css" rel="stylesheet" type="text/css" />
+    <link href="css/gallery.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="bower_components/slick-lightbox/dist/slick-lightbox.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet"> </head>
 
 <body>
     <div class="container">
+
+
         <div class="row page-content">
             <h1 class="page-heading">Gallery</h1>
+            <div id="gallery-container">
+                <div id="gallery">
+
+                    <div class="gallery">
+
+                        <div class="cell">
+                            <img src="img/emerald_city.png" alt="op art hexagon painting" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/hex2.png" alt="op art hexagon painting" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/envelop.png" alt="op art hexagon painting" class="gallery-img">
+                        </div>
+
+                        <div class="cell">
+                            <img src="img/Hex3.png" alt="op art hexagon painting" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/Aqua_Net.png" alt="op art hexagon painting" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/star.png" alt="op art hexagon painting" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/sweater.png" alt="op art hexagon painting" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/bytes_cropped.png" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/double_diamond.png" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/prism.png" alt="op art hexagon painting" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/Binary_System.png" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/hex3-close-up.png" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/envelop-hung.jpg" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/hex2hung.jpg" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/hex3hung.jpg" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+
+                        <div class="cell">
+                            <img src="img/floyds_show.jpg" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/floyds_show_2.jpg" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/floyds_show_3.jpg" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/Hex2_inprocess.jpg" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/Emerald_city_inprocess.jpg" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+                        <div class="cell">
+                            <img src="img/Envelop_inprocess.jpg" alt="subtle rectangular op art" class="gallery-img">
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
 
         </div>
         <header class="main-header">
@@ -41,15 +125,18 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-  <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
-  <script type="text/javascript" src="bower_components/slick-lightbox/dist/slick-lightbox.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('ul').slickLightbox({
-        itemSelector: '> li > a'
-      });
-    });
-  </script>
+    <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
+    <script type="text/javascript" src="bower_components/slick-lightbox/dist/slick-lightbox.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#gallery').slickLightbox({
+                itemSelector: '.cell img',
+                src: 'src',
+                caption: true,
+                background: 'rgba(0,0,0,.93)'
+            });
+        });
+    </script>
 </body>
 
 </html>

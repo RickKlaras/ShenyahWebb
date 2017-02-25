@@ -52,7 +52,6 @@ a {
 
 #bio-pic{
   display: block;
-  /*float: right;*/
   max-width: 300px;
   margin-top: 0;
   margin-right: auto;
@@ -73,6 +72,7 @@ a {
 /* --------------------------
   Media Queries
 --------------------------- */
+
 
 @media (min-width: 769px) {
 	.main-content {
