@@ -6,29 +6,68 @@ MAIN STYLES
   display: flex;
   flex-direction:column;
   margin-top: 0;
-
 }
 
 .main-header{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
   padding-top: 0;
   margin-top: 1vh;
-  /*background-color: #fff;*/
+  background-color: rgba(255, 255, 255, 0.9);
 
 }
+
+/*.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:5px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}*/
 
 a.site-logo{
   width: auto;
   align-self: center;
   white-space: nowrap;
+
+}
+
+h1 a.site-logo{
+  margin-top: 0px;
 }
 
 
 .nav a {
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 300;
   text-align: center;
-  padding: .4em;
+  padding: .1em;
   border-bottom: 1px solid #000;
 }
 
@@ -48,13 +87,11 @@ MEDIA QUERIES
   margin-top: 1.5em;
 }*/
 
-@media (min-width: 769px){
+@media (min-width: 600px){
   .main-header{
-    /*position: fixed;
-    bottom: 0;*/
     padding-top: 0;
-    padding-bottom: 6vh;
-    height: 200px;
+    padding-bottom: 1vh;
+    height: 160px;
     justify-content: flex-end;
   }
   .site-logo{
@@ -67,15 +104,18 @@ MEDIA QUERIES
   }
   .nav a{
     border-bottom: transparent;
+    /*padding-bottom: 50px;*/
   }
 }
 
 @media (min-width: 1025px){
   .main-header{
     flex-direction: row;
+    height: 100px;
   }
   .site-logo {
     margin-right: auto;
+      padding-left: 30px;
   }
   .nav {
     margin-top: 0;
