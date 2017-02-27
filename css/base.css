@@ -17,6 +17,11 @@ h1{
   font-family: 'Poiret One', cursive;
 }
 
+/*highlight active page*/
+.active{
+  color: #FF6828;
+}
+
 img{
   max-width: 60vmin;
   max-height: 60vmin;
