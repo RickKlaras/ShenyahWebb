@@ -83,7 +83,7 @@ a {
 @media (max-width: 800px){
   .page-content{
     /*clear footer nav*/
-    margin-bottom: 250px;
+    margin-bottom: 280px;
   }
 }
 
@@ -125,24 +125,13 @@ a {
     max-width: 70vh;
     max-height: 70vh;
   }
+}
 
+/*fix slick slider load*/
+
+.sliderload{
+  display: none;
 }
-/*slider dots*/
-.slick-dots{
-  bottom: -65px;
-  left: -0.5vw;
-}
-.slick-dots li button:before{
-  font-size: 1.2vw;
-  left: auto;
-  right: auto;
-  color: #cf1a37;
-}
-.slick-dots li.slick-active button:before{
-  color: #D34B4A;
-}
-.slick-dots li button:hover:before,
-.slick-dots li button:focus:before
-{
-    opacity: .7;
+.slick-initialized{
+  display: block;
 }
