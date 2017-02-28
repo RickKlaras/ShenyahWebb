@@ -27,7 +27,7 @@ img{
   max-height: 60vmin;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2vh;
+  margin-top: 8vh;
 }
 
 ul,
@@ -111,6 +111,10 @@ a {
 	.container {
 		width: 1080px;
 	}
+
+  body{
+    font-size: 2.5vmin;
+  }
 }
 
 @media (min-width: 1188px) {
@@ -118,7 +122,7 @@ a {
 		width: 1200px;
 	}
   img {
-    max-width: 600px;
+    max-width: 70vh;
     max-height: 70vh;
   }
 
