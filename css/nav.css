@@ -79,6 +79,7 @@ MEDIA QUERIES
 
 @media (min-width: 1025px){
   .main-header{
+
     flex-direction: row;
     height: 100px;
     width: inherit;
@@ -89,7 +90,7 @@ MEDIA QUERIES
       padding-left: 30px;
   }
   .nav {
-    margin-top: 0;
+    margin-top: .8em;
     align-self: center;
   }
   .nav li {
