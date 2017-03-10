@@ -2,7 +2,7 @@
 
 # Portfolio Website for Artist Shenyah Webb
 
-This site was designed for Optical Artist Shenyah Webb. I went with a minimal design to allow her wonderful art to speak for itself.
+This site was designed for optical artist Shenyah Webb. I went with a minimal design to allow her wonderful art to speak for itself.
 
 ## Visit the Site
 
@@ -16,11 +16,11 @@ If you'd like to visit the actual site, just go to [Shenyah.com](https://www.she
 
 ## Designed and Built By
 
-* **Rick Klaras**
+**Rick Klaras**
 
 ## License
 
-This Website &copy; 2017 Rick Klaras, all photos and images &copy; 2017 Shenyah Webb.
+This Website &copy; 2017 Rick Klaras, all images &copy; 2017 Shenyah Webb.
 
 ## Acknowledgments
 
