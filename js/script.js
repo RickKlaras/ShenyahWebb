@@ -5,22 +5,7 @@ $(document).ready(function(){
     dots: false,
     fade: true,
     speed: 2000,
-    cssEase: 'ease-in-out'
+    cssEase: 'ease-in-out',
+    captionPosition: 'bottom'
   });
 });
-
-// $( ".cross" ).hide();
-// $( ".menu" ).hide();
-// $( ".hamburger" ).click(function() {
-// $( ".menu" ).slideToggle( "slow", function() {
-// $( ".hamburger" ).hide();
-// $( ".cross" ).show();
-// });
-// });
-//
-// $( ".cross" ).click(function() {
-// $( ".menu" ).slideToggle( "slow", function() {
-// $( ".cross" ).hide();
-// $( ".hamburger" ).show();
-// });
-// });
