@@ -1,3 +1,5 @@
+![Shenyah.com screenshot](img/Screenshot.png)
+
 # Portfolio Website for Artist Shenyah Webb
 
 This site was designed for Optical Artist Shenyah Webb. I went with a minimal design to allow her wonderful art to speak for itself.
